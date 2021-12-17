@@ -141,7 +141,7 @@ a {
 }
 
 .client-card {
-    background-color: hsl(0, 0%, 100%);
+    background-color: #FFFFFF;
     padding: 10%;
     margin-bottom: 10%;
 }
@@ -170,3 +170,76 @@ a {
 }
 
 /* Industry Section */
+
+.industry-section {
+    background-color: #252B42;
+}
+
+.industry-section h2{
+    color: #FFFFFF;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 8%;
+}
+
+.industry-section p{
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 15%;
+}
+
+.ind-card-1 {
+    background: url("/images/industry-1.png");
+}
+
+.ind-card-2 {
+    background: url("/images/industry-2.png");
+}
+
+.ind-card-3 {
+    background: url("/images/industry-3.png");
+}
+
+.ind-card-4 {
+    background: url("/images/industry-4.png");
+}
+
+.industry-card {
+    background-color: #FFFFFF;
+    padding: 10%;
+    margin-bottom: 10%;
+    background-size: 100% 100%; 
+}
+
+.industry-card h3 {
+    color: #FFFFFF;
+    margin-top: 95%;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+.industry-card p {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10%;
+    width: 100%;
+    text-align: start;
+}
+
+.industry-card button {
+    padding: 5%;
+    width: 50%;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #23A6F0;
+    border: none;
+    border-radius: 50px;
+}

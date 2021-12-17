@@ -138,15 +138,18 @@
     }
 
     /* Client review section */
+
+    .client-review-section {
+        padding: 10%;
+    }
     
     .client-review-section h2{
-        margin-bottom: 4%;
+        margin-bottom: 2%;
     }
     
     .client-review-section p{
-        margin-bottom: 12%;
+        margin-bottom: 8%;
     }
-
 
     .client-card {
         width: 45%;
@@ -169,6 +172,36 @@
         left: -50px;
         top: 30px;
     }
+
+    /* Industry section */
+
+    .industry-section {
+        padding: 8% 2%;
+    }
+
+    .industry-section h2{
+        margin-bottom: 2%;
+    }
+    
+    .industry-section p{
+        margin-bottom: 8%;
+    }
+
+    .industry-card {
+        width: 23%;
+        padding: 2%;
+        margin-right: 2.6%;
+    }
+    
+    .ind-card-1, .ind-card-2, .ind-card-3 {
+        float: left;
+    } 
+
+    .ind-card-4 {
+        float: right;
+        margin-right: 0;
+    }
+
 
 }
 
