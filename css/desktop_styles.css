@@ -241,5 +241,41 @@
         float: right;
         margin-right: 0;
     }
+
+    /* Booking section*/
+
+    .booking-section {
+        background: url("/images/booking-background-desktop.jpg");
+        background-size: 100% 100%;
+        padding: 6% 12%;
+    }
+
+    .booking-section form .booking-input {
+        display: inline-block;
+        width: 28%;
+        padding: 1.5%;
+        font-weight: bold;
+        background-color: #FFFFFF;
+        border: solid 1px #BDBDBD;
+        border-radius: 5px;
+        margin-bottom: 2%;
+        margin-right: 1.5%;
+    }
+
+    .booking-section form textarea {
+        width: 58% !important;
+    }
+
+    .booking-section form input[type="submit"] {
+        display: block;
+        width: 25%;
+        padding: 2%;
+        border: none;
+        border-radius: 5px;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: #23A6F0;
+    }
 }
 

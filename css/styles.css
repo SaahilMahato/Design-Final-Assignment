@@ -335,3 +335,48 @@ a {
     top: -25px;
     right: 15px;
 }
+
+/* Booking section*/
+
+.booking-section {
+    background: url("/images/booking-background-mobile.png");
+    background-size: 100% 100%;
+    padding: 25% 10%;
+}
+
+.booking-section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.booking-section p {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 8%;
+}
+
+.booking-section form .booking-input {
+    width: 100%;
+    padding: 5%;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    border: solid 1px #BDBDBD;
+    border-radius: 5px;
+    margin-bottom: 6%;
+}
+
+.booking-section form textarea {
+    min-height: 140px;
+}
+
+.booking-section form input[type="submit"] {
+    width: 100%;
+    padding: 6%;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #23A6F0;
+}
