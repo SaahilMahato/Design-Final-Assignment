@@ -64,3 +64,9 @@ header nav {
 .lower-nav ul li {
     width: 100%;
 }
+
+/* client review section*/
+
+.client-review-section {
+    padding: 10%;
+}

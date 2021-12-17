@@ -115,12 +115,12 @@
     .learn-button {
         margin-top: 2%;
         margin-left: 1%;
-        color: #23A6F0;
+        color: #FFFFFF;
         font-weight: bold;
         width: 15%;
-        padding: 1.5%;
+        padding: 1.2%;
         background: transparent;
-        border: solid 2px #23A6F0;
+        border: solid 2px #FFFFFF;
         border-radius: 50px;
     }
 
@@ -136,5 +136,39 @@
     .vector-div p {
         margin-bottom: 0;
     }
+
+    /* Client review section */
+    
+    .client-review-section h2{
+        margin-bottom: 4%;
+    }
+    
+    .client-review-section p{
+        margin-bottom: 12%;
+    }
+
+
+    .client-card {
+        width: 45%;
+        padding: 5%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        position: relative;
+    }
+
+    .card-1 {
+        float: left;
+    }
+
+    .card-2 {
+        float: right;
+    }
+
+    .client-pic {
+        position: absolute;
+        left: -50px;
+        top: 30px;
+    }
+
 }
 
