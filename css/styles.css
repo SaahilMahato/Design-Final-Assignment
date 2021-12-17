@@ -1,13 +1,20 @@
 header {
-    background-color: #252B42;
     color: #FFFFFF;
-    padding: 4%;
+    padding: 0;
+}
+
+header nav {
+    background-color: #252B42;
 }
 
 .upper-nav h1 {
     font-size: 24px;
     font-weight: bold;
-    padding: 1%;
+    padding: 4%;
+}
+
+.upper-nav div {
+    padding: 4%;
 }
 
 .upper-nav div img {
@@ -26,4 +33,84 @@ a {
 .lower-nav ul li {
     padding: 16% 0;
     text-align: center;
+}
+
+.header-background {
+    color: #FFFFFF;
+    font-weight: bold;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("/images/hero_cover_mobile.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    padding: 20% 0;
+}
+
+.header-background h2 {
+    font-size: 38px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+
+.header-background p {
+    font-size: 28px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header-background button {
+    display: block;
+}
+
+.quote-button {
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 40%;
+    padding: 3%;
+    background-color: #23A6F0;
+    border: none;
+    border-radius: 50px;
+}
+
+.learn-button {
+    color: #23A6F0;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 35%;
+    padding: 2.5%;
+    background: transparent;
+    border: solid 2px #23A6F0;
+    border-radius: 50px;
+}
+
+/* Vector section */
+
+.vector-section {
+    background-color: #252B42;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-top: 20%;
+}
+
+.vector-div img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 8%;
+}
+
+.vector-div h3 {
+    text-align: center;
+    margin-bottom: 2.5%;
+}
+
+.vector-div p {
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 20%;
 }
