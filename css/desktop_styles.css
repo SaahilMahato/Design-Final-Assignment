@@ -191,6 +191,7 @@
         width: 23%;
         padding: 2%;
         margin-right: 2.6%;
+        margin-bottom: 0;
     }
     
     .ind-card-1, .ind-card-2, .ind-card-3 {
@@ -202,6 +203,43 @@
         margin-right: 0;
     }
 
+    /* Pricing section*/
 
+    .pricing-section {
+        padding: 8% 2%;
+    }
+
+    .pricing-section h2{
+        margin-bottom: 2%;
+    }
+    
+    .pricing-section p{
+        margin-bottom: 8%;
+    }
+
+    .pricing-card {
+        width: 32%;
+        padding: 2%;
+        margin-right: 2%;
+        margin-bottom: 0;
+    }
+
+    .pricing-card h3 {
+        font-size: 28px;
+    }
+
+    .pricing-card ul {
+        margin-top: 10%;
+        margin-bottom: 0;
+    }
+    
+    .pricing-card-1, .pricing-card-2 {
+        float: left;
+    } 
+
+    .pricing-card-3 {
+        float: right;
+        margin-right: 0;
+    }
 }
 

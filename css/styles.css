@@ -243,3 +243,85 @@ a {
     border: none;
     border-radius: 50px;
 }
+
+/* Pricing Section*/
+
+.pricing-section {
+    background-color: #252B42;
+}
+
+.pricing-section h2{
+    color: #FFFFFF;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 8%;
+}
+
+.pricing-section p{
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 15%;
+}
+
+.pricing-card {
+    background-color: #FFFFFF;
+    padding: 10%;
+    margin-bottom: 10%;
+    background-size: 100% 100%; 
+    border-radius: 2%;
+}
+
+.pricing-card h3{
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.pricing-card p {
+    color: #737373;
+    font-weight: bold;
+    margin-bottom: 12%;
+    text-align: center;
+}
+
+.pricing-card .blue-text {
+    color: #23A6F0;
+    font-size: 32px;
+}
+
+.pricing-card .blue-text sup, .pricing-card .blue-text sub {
+    color: #23A6F0;
+    font-size: 14px;
+}
+
+.pricing-card ul {
+    margin-bottom: 10%;
+}
+
+.pricing-card ul li {
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+
+.pricing-card ul li img {
+    margin-right: 4%;
+}
+
+.pricing-card button {
+    width: 100%;
+    padding: 6%;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #23A6F0;
+}
