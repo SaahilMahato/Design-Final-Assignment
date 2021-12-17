@@ -325,3 +325,13 @@ a {
     font-weight: bold;
     background-color: #23A6F0;
 }
+
+.pricing-card-2 {
+    position: relative;
+}
+
+.pricing-card-2 .new-tag {
+    position: absolute;
+    top: -25px;
+    right: 15px;
+}
