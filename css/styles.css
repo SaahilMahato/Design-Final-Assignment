@@ -478,14 +478,14 @@ a {
 .links-section h2{
     color: #FFFFFF;
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 2.0rem;
     margin-bottom: 8%;
 }
 
-.links-section ul li {
+.links-section ul li, .links-section ul li a {
     font-size: 1.4rem;
     font-weight: bold;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 
 .links-section ul li img {
