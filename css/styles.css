@@ -34,14 +34,18 @@ header nav {
     font-size: 2.4rem;
     font-weight: bold;
     padding: 4%;
+    float: left;
 }
 
 .upper-nav div {
     padding: 4%;
+    padding-right: 0 !important;
+    float: right;
 }
 
 .upper-nav div img {
     margin: 0 5%;
+    vertical-align: middle;
 }
 
 a {
@@ -65,7 +69,7 @@ a {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-blend-mode: darken;
-    padding: 10%;
+    padding: 20% 10%;
 }
 
 .header-background h2 {
@@ -335,8 +339,20 @@ a {
     margin-bottom: 4%;
 }
 
+.pricing-card ul li p {
+    width: 75%;
+    display: inline-block;
+    vertical-align: sub;
+    text-align: start;
+    color: #000000;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
 .pricing-card ul li img {
     margin-right: 4%;
+    vertical-align: middle;
 }
 
 .pricing-card button {
@@ -461,13 +477,25 @@ a {
 }
 
 .links-section ul li {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 5%;
 }
 
 .links-section ul li img {
     margin-right: 5%;
+    vertical-align: middle;
+}
+
+.links-section ul li p {
+    width: 75%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: start;
+    color: #000000;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 0;
 }
 
 /* social section */
@@ -487,4 +515,8 @@ a {
 .social-section ul li {
     display: inline-block;
     margin-right: 5%;
+}
+
+.social-section ul li img{
+    vertical-align: middle;
 }
