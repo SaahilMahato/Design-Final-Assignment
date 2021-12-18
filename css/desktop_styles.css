@@ -277,5 +277,26 @@
         font-weight: bold;
         background-color: #23A6F0;
     }
+
+    /* Contact Section */
+
+    .contact-section {
+        padding: 4% 12%;
+    }
+
+    .contact-section div {
+        float: left;
+        width: 60%;
+    }
+
+    .contact-section p {
+        margin-bottom: 0;
+    }
+
+    .contact-section button {
+        float: right;
+        width: 20%;
+        padding: 2%;
+    }
 }
 
