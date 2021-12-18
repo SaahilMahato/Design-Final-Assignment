@@ -1,3 +1,11 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     color: #FFFFFF;
     padding: 0;
@@ -8,7 +16,7 @@ header nav {
 }
 
 .upper-nav h1 {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: bold;
     padding: 4%;
 }
@@ -26,7 +34,7 @@ a {
 }
 
 .lower-nav {
-    font-size: 30px;
+    font-size: 3.0rem;
     font-weight: bold;
 }
 
@@ -42,20 +50,18 @@ a {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-blend-mode: darken;
-    padding: 20% 0;
+    padding: 10%;
 }
 
 .header-background h2 {
     font-size: 38px;
     text-align: center;
-    width: 60%;
     margin: 0 auto;
     margin-bottom: 10%;
 }
 
 .header-background p {
-    font-size: 28px;
-    width: 80%;
+    font-size: 2.4rem;
     text-align: center;
     margin: 0 auto;
 }
@@ -94,7 +100,7 @@ a {
     background-color: #252B42;
     color: #FFFFFF;
     font-weight: bold;
-    padding-top: 20%;
+    padding: 20% 10%;
 }
 
 .vector-div img {
@@ -103,16 +109,21 @@ a {
     margin-bottom: 8%;
 }
 
-.vector-div h3 {
+.vector-div h2 {
+    font-size: 2.0rem;
     text-align: center;
     margin-bottom: 2.5%;
 }
 
 .vector-div p {
+    font-size: 1.4rem;
     margin: 0 auto;
-    width: 60%;
     text-align: center;
     margin-bottom: 20%;
+}
+
+.last-vector-div p {
+    margin-bottom: 0;
 }
 
 /* Client section */
@@ -123,19 +134,17 @@ a {
 
 .client-review-section h2{
     color: #FFFFFF;
-    font-size: 38px;
+    font-size: 3.8rem;
     font-weight: bold;
     text-align: center;
-    width: 60%;
     margin: 0 auto;
     margin-bottom: 8%;
 }
 
 .client-review-section p{
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 1.6rem;
     text-align: center;
-    width: 70%;
     margin: 0 auto;
     margin-bottom: 15%;
 }
@@ -147,14 +156,14 @@ a {
 }
 
 .client-card h3 {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: bold;
     margin-bottom: 2%;
 }
 
 .client-card p {
     color: #737373;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: bold;
     text-align: start;
     width: 100%;
@@ -177,19 +186,17 @@ a {
 
 .industry-section h2{
     color: #FFFFFF;
-    font-size: 38px;
+    font-size: 3.8rem;
     font-weight: bold;
     text-align: center;
-    width: 50%;
     margin: 0 auto;
     margin-bottom: 8%;
 }
 
 .industry-section p{
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 1.6rem;
     text-align: center;
-    width: 70%;
     margin: 0 auto;
     margin-bottom: 15%;
 }
@@ -220,14 +227,14 @@ a {
 .industry-card h3 {
     color: #FFFFFF;
     margin-top: 95%;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: bold;
     margin-bottom: 10%;
 }
 
 .industry-card p {
     color: #FFFFFF;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: bold;
     margin-bottom: 10%;
     width: 100%;
@@ -252,19 +259,17 @@ a {
 
 .pricing-section h2{
     color: #FFFFFF;
-    font-size: 38px;
+    font-size: 3.8rem;
     font-weight: bold;
     text-align: center;
-    width: 50%;
     margin: 0 auto;
     margin-bottom: 8%;
 }
 
 .pricing-section p{
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 1.6rem;
     text-align: center;
-    width: 70%;
     margin: 0 auto;
     margin-bottom: 15%;
 }
@@ -279,7 +284,7 @@ a {
 
 .pricing-card h3{
     color: #000000;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: bold;
     margin-bottom: 10%;
     text-align: center;
@@ -294,12 +299,12 @@ a {
 
 .pricing-card .blue-text {
     color: #23A6F0;
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 .pricing-card .blue-text sup, .pricing-card .blue-text sub {
     color: #23A6F0;
-    font-size: 14px;
+    font-size: 1.2rem;
 }
 
 .pricing-card ul {
@@ -307,6 +312,7 @@ a {
 }
 
 .pricing-card ul li {
+    font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 4%;
 }
@@ -321,7 +327,7 @@ a {
     border: none;
     border-radius: 5px;
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: bold;
     background-color: #23A6F0;
 }
@@ -332,8 +338,8 @@ a {
 
 .pricing-card-2 .new-tag {
     position: absolute;
-    top: -25px;
-    right: 15px;
+    top: -2.5rem;
+    right: 1.5rem;
 }
 
 /* Booking section*/
@@ -345,13 +351,13 @@ a {
 }
 
 .booking-section h2 {
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: bold;
     margin-bottom: 2%;
 }
 
 .booking-section p {
-    font-size: 38px;
+    font-size: 3.8rem;
     font-weight: bold;
     margin-bottom: 8%;
 }
@@ -376,7 +382,7 @@ a {
     border: none;
     border-radius: 5px;
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: bold;
     background-color: #23A6F0;
 }
@@ -389,14 +395,14 @@ a {
 }
 
 .contact-section h2 {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: bold;
     margin-bottom: 4%;
 }
 
 .contact-section p {
     color: #737373;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: normal;
     margin-bottom: 15%;
 }
@@ -407,7 +413,7 @@ a {
     border: none;
     border-radius: 5px;
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: bold;
     background-color: #23A6F0;
 }
@@ -432,11 +438,12 @@ a {
 .links-section h2{
     color: #FFFFFF;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.8rem;
     margin-bottom: 8%;
 }
 
 .links-section ul li {
+    font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 5%;
 }
@@ -454,6 +461,7 @@ a {
 
 .social-section p {
     color: #FFFFFF;
+    font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 15%;
 }
