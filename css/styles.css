@@ -65,7 +65,7 @@ a {
 .header-background {
     color: #FFFFFF;
     font-weight: bold;
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("/images/hero_cover_mobile.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../images/hero_cover_mobile.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-blend-mode: darken;
@@ -223,19 +223,19 @@ a {
 }
 
 .ind-card-1 {
-    background: url("/images/industry-1.png");
+    background: url("../images/industry-1.png");
 }
 
 .ind-card-2 {
-    background: url("/images/industry-2.png");
+    background: url("../images/industry-2.png");
 }
 
 .ind-card-3 {
-    background: url("/images/industry-3.png");
+    background: url("../images/industry-3.png");
 }
 
 .ind-card-4 {
-    background: url("/images/industry-4.png");
+    background: url("../images/industry-4.png");
 }
 
 .industry-card {
@@ -379,7 +379,7 @@ a {
 /* Booking section*/
 
 .booking-section {
-    background: url("/images/booking-background-mobile.png");
+    background: url("../images/booking-background-mobile.png");
     background-size: 100% 100%;
     padding: 25% 10%;
 }

@@ -82,7 +82,7 @@
 
     .header-background {
         color: #FFFFFF;
-        background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("/images/hero_cover_desktop.jpg");
+        background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../images/hero_cover_desktop.jpg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-blend-mode: darken;
@@ -251,7 +251,7 @@
     /* Booking section*/
 
     .booking-section {
-        background: url("/images/booking-background-desktop.jpg");
+        background: url("../images/booking-background-desktop.jpg");
         background-size: 100% 100%;
         padding: 5% 12%;
     }
