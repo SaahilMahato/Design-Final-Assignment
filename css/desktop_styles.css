@@ -67,7 +67,7 @@
     .login button{
         width: 60%;
         color: #FFFFFF;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: bold;
         background-color: #23A6F0;
         border: none;
@@ -115,6 +115,7 @@
         margin-left: 8%;
         width: 20%;
         padding: 1.5%;
+        font-size: 1.4rem;
     }
     
     .learn-button {
@@ -124,6 +125,7 @@
         width: 15%;
         padding: 1.2%;
         border: solid 2px #FFFFFF;
+        font-size: 1.4rem;
     }
 
     /* vectir section */

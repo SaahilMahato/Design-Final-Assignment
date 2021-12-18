@@ -44,7 +44,7 @@ header nav {
 }
 
 .upper-nav div img {
-    margin: 0 5%;
+    margin-left: 8%;
     vertical-align: middle;
 }
 
@@ -398,12 +398,18 @@ a {
 
 .booking-section form .booking-input {
     width: 100%;
-    padding: 5%;
+    padding: 4%;
     font-weight: bold;
+    font-size: 1.4rem;
     background-color: #FFFFFF;
     border: solid 1px #BDBDBD;
     border-radius: 5px;
     margin-bottom: 6%;
+    color: #BDBDBD;
+}
+
+.booking-section form .booking-input::placeholder {
+    color: #BDBDBD;
 }
 
 .booking-section form textarea {
