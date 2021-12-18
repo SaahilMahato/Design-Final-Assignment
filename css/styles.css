@@ -411,3 +411,54 @@ a {
     font-weight: bold;
     background-color: #23A6F0;
 }
+
+/* Footer */
+
+/* links section */
+
+.links-section {
+    background-color: #252B42;
+    padding: 10%;
+}
+
+.links-section div {
+    margin-bottom: 10%;
+}
+
+.links-5 {
+    margin-bottom: 0 !important;
+}
+
+.links-section h2{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 8%;
+}
+
+.links-section ul li {
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.links-section ul li img {
+    margin-right: 5%;
+}
+
+/* social section */
+
+.social-section {
+    background-color: #252B42;
+    padding: 10%;
+}
+
+.social-section p {
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 15%;
+}
+
+.social-section ul li {
+    display: inline-block;
+    margin-right: 5%;
+}

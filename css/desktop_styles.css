@@ -124,8 +124,10 @@
         border-radius: 50px;
     }
 
+    /* vectir section */
+
     .vector-section {
-        padding: 10%;
+        padding: 5% 10%;
     }
 
     .vector-div {
@@ -140,7 +142,7 @@
     /* Client review section */
 
     .client-review-section {
-        padding: 10%;
+        padding: 5% 10%;
     }
     
     .client-review-section h2{
@@ -176,7 +178,7 @@
     /* Industry section */
 
     .industry-section {
-        padding: 8% 2%;
+        padding: 5% 2%;
     }
 
     .industry-section h2{
@@ -206,7 +208,7 @@
     /* Pricing section*/
 
     .pricing-section {
-        padding: 8% 2%;
+        padding: 5% 2%;
     }
 
     .pricing-section h2{
@@ -247,7 +249,7 @@
     .booking-section {
         background: url("/images/booking-background-desktop.jpg");
         background-size: 100% 100%;
-        padding: 6% 12%;
+        padding: 5% 12%;
     }
 
     .booking-section form .booking-input {
@@ -281,7 +283,7 @@
     /* Contact Section */
 
     .contact-section {
-        padding: 4% 12%;
+        padding: 5% 12%;
     }
 
     .contact-section div {
@@ -297,6 +299,44 @@
         float: right;
         width: 20%;
         padding: 2%;
+    }
+
+    /* footer */
+    /* links section */
+
+    .links-section {
+        padding: 5% 12%;
+    }
+
+    .links-section div {
+        margin-bottom: 0;
+        width: 20%;
+    }
+
+    .links-1, .links-2, .links-3, .links-4 {
+        float: left;
+    }
+
+    .links-5 {
+        float: right;
+    }
+
+    /* social section */
+    .social-section {
+        background-color: #FAFAFA;
+        padding: 2% 12%;
+    }
+
+    .social-section p {
+        color: #737373;
+        width: 60%;
+        float:left;
+        margin-bottom: 0;
+    }
+
+    .social-section ul {
+        width: 40%;
+        float: right;
     }
 }
 
